@@ -12,7 +12,7 @@ Create a Python environment in your work folder with the following packages:
 uv venv --python 3.13
 source .venv/bin/activate
 uv pip install ecmwf-opendata ecmwf-api-client --native-tls
-uv pip install xarray cfgrib pandas --native-tls
+uv pip install xarray cfgrib pandas toml certifi --native-tls
 ```
 
 ## Usage

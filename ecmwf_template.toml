@@ -1,0 +1,9 @@
+[data]
+    var_forecast            = "gh" # "t"    "u10"
+    var_analysis            = "gh" # "T2M"  "U10M"
+    download_start_date     = "2025-03-23T18:00:00"
+    download_end_date       = "2025-07-04T00:00:00"
+    acquisition_frequency   = "6h"
+    forecast_delta          = 2
+    download_path           = "data/ECMWF/"
+    work_root_path          = <work_root_path>

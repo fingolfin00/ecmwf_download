@@ -9,7 +9,7 @@ os.environ["SSL_CERT_FILE"] = str(env_base_path / 'ssl' / 'tls-ca-bundle.pem')
 os.environ["SSL_CERT_DIR"] = str(env_base_path / 'ssl')
 os.environ["REQUESTS_CA_BUNDLE"] = str(env_base_path / 'ssl' / 'tls-ca-bundle.pem')
 
-config = toml.load("weather.toml")
+config = toml.load("ecmwf.toml")
 
 start_date = datetime.datetime.fromisoformat(config["data"]["download_start_date"])
 end_date = datetime.datetime.fromisoformat(config["data"]["download_end_date"])

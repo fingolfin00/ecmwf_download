@@ -13,7 +13,7 @@ config = toml.load("weather.toml")
 
 start_date = datetime.datetime.fromisoformat(config["data"]["download_start_date"])
 end_date = datetime.datetime.fromisoformat(config["data"]["download_end_date"])
-var = config["data"]["var_analysis"]
+var = config["data"]["variable"]
 freq = config["data"]["acquisition_frequency"]
 forecast_delta = config["data"]["forecast_delta"]
 download_path = config["data"]["work_root_path"] + config["data"]["download_path"]

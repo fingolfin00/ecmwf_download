@@ -1,6 +1,5 @@
 [data]
-    var_forecast            = "gh" # "t"    "u10"
-    var_analysis            = "gh" # "T2M"  "U10M"
+    variable                = "gh" # "t"    "u10"
     download_start_date     = "2025-03-23T18:00:00"
     download_end_date       = "2025-07-04T00:00:00"
     acquisition_frequency   = "6h"
